@@ -7,7 +7,7 @@ const text3 = document.querySelector("#text3");
 
 const izquierda = document.querySelector("#izquierda");
 izquierda.addEventListener("click", function(){
-    window.location.href = "../Portada.html";
+    window.location.href = "../index.html";
 })
 
 const derecha = document.querySelector("#derecha");
