@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+#contenedor-historia{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 3.8rem; /* Responsive */
+    font-family: 'Merriweather', serif;
+    color:#f79a12;
+}
+
+#titulo{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center; 
+    text-shadow: 2px 2px 14px rgba(0, 0, 0, 1);
+}
+
+#subtitulo{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    width: 100%;
+}
+
+#imagen-historia{
+    width: 100%;
+    height: auto;   
+}
+
+.positionFlecha{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 50px;
+    height: auto;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px) {
+    /* styles for phones */
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    #subtitulo {
+        top: 100px;
+        font-size: 1rem;
+        left: 0;
+        right: 0;
+    }
+
+    .positionFlecha {
+       right: 5px;
+       width: 30px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* styles for small tablets */
+    h1 {
+        font-size: 2rem;
+    }
+    #subtitulo {
+        top: 100px;
+        left: 0;
+        right: 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* styles for tablets in landscape and small laptops */
+    h1 {
+        font-size: 3rem;
+    }
+
+    #subtitulo {
+        top: 125px;
+        left: 100px;
+    }
+
+    .positionFlecha {
+        width: 40px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* styles for desktops */
+}
+@media only screen and (min-width: 1200px) {
+    /* styles for large screens */
+}

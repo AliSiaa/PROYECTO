@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    background-color: floralwhite;
+    overflow: hidden;
+}
+
+#contenido{
+    max-width: 700px;
+    height: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+#imagenHistoria{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#imagenHistoria img{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+}
+
+#ballena1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 250px!important;
+    height: 200px!important;
+    animation: nadar 10s infinite;
+}
+
+@keyframes nadar {
+    0% { bottom: 0%; right: 15%; transform: rotate(32deg)}
+    25% {bottom: 5%; right: 20%; transform: rotate(32deg)}
+    50% { bottom: 15%; right: 30%; transform: rotate(32deg)}
+    75% { bottom:  30%; right: 40%; transform: rotate(32deg)}
+    100% { bottom:  50%; right: 50%; transform: rotate(32deg)}
+}
+
+#pictograma{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.picto{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 20px;
+}
+
+.picto img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+#frase{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#text1{
+    display: none;
+    font-size: 26px;
+}
+
+#text2{
+    display: none;
+    font-size: 26px;
+}
+
+#text3{
+    display: none;
+    font-size: 26px;
+}
+
+#text4{
+    display: none;
+    font-size: 26px;
+}
+
+#text5{
+    display: none;
+    font-size: 26px;
+}
+
+#flechas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flecha{
+    width: 100px;
+    height: 50px;
+}
+
+.flecha img{
+    width: 100px;
+    height: 50px;
+}
+
+#pagina{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-size: 26px;
+}

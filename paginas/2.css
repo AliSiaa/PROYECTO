@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    background-color: floralwhite;
+    overflow: hidden;
+}
+
+#contenido{
+    max-width: 700px;
+    height: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+#imagenHistoria{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#imagenHistoria img{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+}
+
+#pictograma{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.picto{
+    width: 100px;
+    height: 100px;
+    margin: 0 30px 0 30px;
+}
+
+.picto img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+#frase{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#text1{
+    display: none;
+    font-size: 26px;
+}
+
+#text2{
+    display: none;
+    font-size: 26px;
+}
+
+#text3{
+    display: none;
+    font-size: 26px;
+}
+
+#text4{
+    display: none;
+    font-size: 26px;
+}
+
+#flechas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flecha{
+    width: 100px;
+    height: 50px;
+}
+
+.flecha img{
+    width: 100px;
+    height: 50px;
+}
+
+#pagina{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-size: 26px;
+}
+
+.burbuja{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%!important;
+    height: 10%!important;
+    
+}
+#burbuja1{
+    animation: meneo1 20s infinite;
+    width: 10%!important;
+    height:20%!important;
+}
+#burbuja2{
+    animation: meneo2 20s infinite;
+    width: 3%!important;
+    height:6%!important;
+}
+#burbuja3{
+    animation: meneo3 20s infinite;
+}
+#burbuja4{
+    animation: meneo4 20s infinite;
+    width: 7%!important;
+    height:14%!important;
+}
+#burbuja5{
+    animation: meneo5 20s infinite;
+}
+#burbuja6{
+    animation: meneo6 20s infinite;
+    width: 8%!important;
+    height: 16%!important;
+}
+#burbuja7{
+    animation: meneo7 20s infinite;
+}
+#burbuja8{
+    animation: meneo8 20s infinite;
+    width: 10%!important;
+    height: 20%!important;
+}
+#burbuja9{
+    animation: meneo9 20s infinite;
+    width: 7%!important;
+    height: 14%!important;
+}
+
+
+
+@keyframes meneo1 {
+    0% { top: 70%; left: 10%;}
+    25% {top: 50%; left: 20%;}
+    50% { top: 40%; left: 10%;}
+    75% { top: 20%; left: 20%;}
+    100% { top: 10%; left: 10%;}
+}
+@keyframes meneo2 {
+    0% { top: 80%; left: 20%;}
+    25% {top: 70%; left: 20%;}
+    50% { top:  60%; left: 20%;}
+    75% { top: 50%; left: 20%;}
+    100% { top: 10%; left: 20%;}
+}
+@keyframes meneo3 {
+    0% { top: 50%; left: 30%;}
+    25% {top: 55%; left: 30%;}
+    50% { top: 68%; left: 30%;}
+    75% { top: 75%; left: 30%;}
+    100% { top: 70%; left: 30%;}
+}
+@keyframes meneo4 {
+    0% { top: 90%; left: 40%;}
+    25% {top: 50%; left: 40%;}
+    50% { top: 10%; left: 40%;}
+    75% { top: 10%; left: 40%;}
+    100% { top: 10%; left: 40%;}
+}
+@keyframes meneo5 {
+    0% { top: 70%; left: 50%;}
+    25% {top: 50%; left: 50%;}
+    50% { top: 30%; left: 50%;}
+    75% { top: 20%; left: 50%;}
+    100% { top: 10%; left: 50%;}
+}
+@keyframes meneo6 {
+    0% { top: 70%; left: 60%;}
+    25% {top: 10%; left: 60%;}
+    50% { top: 10%; left: 60%;}
+    75% { top: 10%; left: 60%;}
+    100% { top: 10%; left: 60%;}
+}
+@keyframes meneo7 {
+    0% { top: 65%; left: 70%;}
+    25% {top: 70%; left: 70%;}
+    50% { top: 60%; left: 70%;}
+    75% { top: 40%; left: 70%;}
+    100% { top: 10%; left: 70%;}
+}
+@keyframes meneo8 {
+    0% { top: 70%; left: 80%;}
+    25% {top: 50%; left: 80%;}
+    50% { top: 40%; left: 80%;}
+    75% { top: 20%; left: 80%;}
+    100% { top: 10%; left: 80%;}
+}
+@keyframes meneo9 {
+    0% { top: 50%; left: 85%;}
+    25% {top: 55%; left: 70%;}
+    50% { top: 68%; left: 85%;}
+    75% { top: 75%; left: 70%;}
+    100% { top: 70%; left: 85%;}
+}
