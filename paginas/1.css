@@ -121,17 +121,17 @@ body{
 
 #text1{
     display: none;
-    font-size: 26px;
+    font-size: 1.2rem;
 }
 
 #text2{
     display: none;
-    font-size: 26px;
+    font-size: 1.2rem;
 }
 
 #text3{
     display: none;
-    font-size: 26px;
+    font-size: 1.2rem;
 }
 
 #flechas{
@@ -240,6 +240,9 @@ body{
         width: 100px!important;
         height: 25px!important;
         animation: meneo 1s infinite;
+    }
+    #pagina {
+        font-size: 1.5rem;
     }
     
     
