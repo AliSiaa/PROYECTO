@@ -158,13 +158,14 @@ body{
     font-size: 0.9rem;
 }
 
+
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
     /* styles for phones */
     #pescado1{
         position: absolute;
         top: 76%;
-        left: 40%;
+        left: 43%;
         width: 100px!important;
         height: 25px!important;
         animation: meneo 1s infinite;
@@ -192,6 +193,9 @@ body{
         100% { top: 17vh; left: 64vw;}
     }
     
+    #pagina {
+        font-size: 1.3rem;
+    }
 
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -205,7 +209,9 @@ body{
         height: 25px!important;
         animation: meneo 1s infinite;
     }
-    
+    #pagina {
+        font-size: 1rem;
+    }
     
     #pescado2{
         position: absolute;
@@ -229,8 +235,8 @@ body{
        /* styles for phones */
        #pescado1{
         position: absolute;
-        top: 76%;
-        left: 45%;
+        top: 82%;
+        left: 51%;
         width: 100px!important;
         height: 25px!important;
         animation: meneo 1s infinite;
@@ -249,14 +255,39 @@ body{
     @keyframes meneo2 {
         0% { top: 4vh; left: 8vw;}
         25% {top: 10vh; left: 25vw;}
-        50% { top: 25vh; left: 50vw;}
-        75% { top: 30vh; left: 60vw;}
-        100% { top: 35vh; left: 70vw;}
+        50% { top: 25vh; left: 35vw;}
+        75% { top: 30vh; left: 40vw;}
+        100% { top: 35vh; left: 60vw;}
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     /* styles for desktops */
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0 30px 0 30px;
+    }
+    #pagina {
+        font-size: 1.5rem;
+    }
+    #pictograma {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
 }
 @media only screen and (min-width: 1200px) {
     /* styles for large screens */
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0 30px 0 30px;
+    }
+    #pagina {
+        font-size: 1.5rem;
+    }
+    #pictograma {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
 }

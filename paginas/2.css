@@ -369,7 +369,15 @@ body{
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     /* styles for desktops */
+    .picto img {
+        width: 100px;
+        height: 100px;
+    }
 }
 @media only screen and (min-width: 1200px) {
     /* styles for large screens */
+    .picto img {
+        width: 100px;
+        height: 100px;
+    }
 }
