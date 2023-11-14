@@ -56,9 +56,19 @@ h1{
     height: auto;
 }
 
+.picto img{
+    width: 75px;
+    height: 75px;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
     /* styles for phones */
+/*     #pictograma{
+        flex-direction: column;
+        gap: 10px;
+    } */
+    
     h1 {
         font-size: 2.2rem;
     }

@@ -1,33 +1,3 @@
-body{
-    margin: 0px;
-    background-color: floralwhite;
-    overflow-y: auto;
-   /*  overflow: hidden; */
-}
-
-#contenido{
-    max-width: 700px;
-    height: 1000px;
-    margin: 0px auto;
-    background-color: white;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
-    padding: 10px;
-}
-
-#imagenHistoria{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin-top: 20px;
-    position: relative;
-}
-
-#imagenHistoria img{
-    width: 90%;
-    height: auto;
-    margin-top: 30px;
-}
-
 #pescado1{
     position: absolute;
     top: 444px;
@@ -90,73 +60,7 @@ body{
     }
 }
 
-#pictograma{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
-.picto{
-    width: 100px;
-    height: 100px;
-    margin: 0 30px 0 30px;
-}
-
-.picto img{
-    width: 75px;
-    height: 75px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
-}
-
-#frase{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-#text1{
-    display: none;
-    font-size: 1.2rem;
-}
-
-#text2{
-    display: none;
-    font-size: 1.2rem;
-}
-
-#text3{
-    display: none;
-    font-size: 1.2rem;
-}
-
-#flechas{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.flecha{
-    width: 100px;
-    height: 50px;
-}
-
-.flecha img{
-    width: 100px;
-    height: 50px;
-}
-
-#pagina{
-    width: 100%;
-    height: auto;
-    text-align: right;
-    font-size: 0.9rem;
-}
 
 
 /* RESPONSIVE */
@@ -169,11 +73,6 @@ body{
         width: 100px!important;
         height: 25px!important;
         animation: meneo 1s infinite;
-    }
-    
-    #pictograma{
-        flex-direction: column;
-        gap: 10px;
     }
     
     #pescado2{
@@ -191,13 +90,10 @@ body{
         50% { top: 24vh; left: 50vw;}
         75% { top: 20vh; left: 60vw;}
         100% { top: 17vh; left: 64vw;}
-    }
-    
-    #pagina {
-        font-size: 1.3rem;
-    }
+    }  
 
 }
+
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     /* styles for small tablets */
        /* styles for phones */
@@ -209,10 +105,7 @@ body{
         height: 25px!important;
         animation: meneo 1s infinite;
     }
-    #pagina {
-        font-size: 1.5rem;
-    }
-    
+   
     #pescado2{
         position: absolute;
         top: 0;
@@ -229,6 +122,7 @@ body{
         75% { top: 30vh; left: 60vw;}
         100% { top: 32vh; left: 65vw;}
     }
+
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     /* styles for tablets in landscape and small laptops */
@@ -241,11 +135,7 @@ body{
         height: 25px!important;
         animation: meneo 1s infinite;
     }
-    #pagina {
-        font-size: 1.5rem;
-    }
-    
-    
+   
     #pescado2{
         position: absolute;
         top: 0;
@@ -264,33 +154,8 @@ body{
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* styles for desktops */
-
-    .picto img {
-        width: 100px;
-        height: 100px;
-        margin: 0 30px 0 30px;
-    }
-    #pagina {
-        font-size: 1.5rem;
-    }
-    #pictograma {
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
+    /* styles for desktops */  
 }
 @media only screen and (min-width: 1200px) {
     /* styles for large screens */
-    .picto img {
-        width: 100px;
-        height: 100px;
-        margin: 0 30px 0 30px;
-    }
-    #pagina {
-        font-size: 1.5rem;
-    }
-    #pictograma {
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
 }
