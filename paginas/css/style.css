@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     background-color: floralwhite;
-    overflow-y: auto;
 }
 
 #contenido{
@@ -35,12 +34,13 @@ body{
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    gap: 40px;
 }
 
 .picto{
     width: 100px;
     height: 100px;
-    margin: 0 30px 0 30px;
+    margin: 0 30px 0 0px;
 }
 
 .picto img{
@@ -56,35 +56,25 @@ body{
     margin-bottom: 40px;
 }
 
-#text1{
-    display: none;
-    font-size: 1.2rem;
-}
-
-#text2{
-    display: none;
-    font-size: 1.2rem;
-}
-
-#text3{
+.textfrase{
     display: none;
     font-size: 1.2rem;
 }
 
 #flechas{
-    width: 100%;
     height: auto;
+    margin: 0 20px 0 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .flecha{
-    width: 100px;
+    width: 50px;
     height: 50px;
 }
 
 .flecha img{
-    width: 100px;
+    width: 50px;
     height: 50px;
 }
 
@@ -95,9 +85,11 @@ body{
     font-size: 0.9rem;
 }
 
+#pagina p {
+    margin-right: 20px;
+}
 
-
-
+/* RESPONSIVE */
 @media only screen and (max-width: 600px) { 
 
     #pictograma{
@@ -111,118 +103,94 @@ body{
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 768px) { 
-    .picto img {
-        width: 100px;
-        height: 100px;
-        margin: 0 30px 0 30px;
-    }
-    #pagina {
-        font-size: 1.5rem;
-    }
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    
     #pictograma {
         margin-top: 80px;
         margin-bottom: 80px;
     }  
-    #text1{
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0 30px 0 30px;
+    }
+
+    .textfrase{
         font-size: 1.5rem;
     }
-    
-    #text2{
+
+    #pagina {
         font-size: 1.5rem;
     }
-    
-    #text3{
-        font-size: 1.5rem;
-    }
-    #text4{
-        font-size: 1.5rem;
-    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .picto img {
-        width: 100px;
-        height: 100px;
-        margin: 0 30px 0 30px;
-    }
-    #pagina {
-        font-size: 1.5rem;
-    }
+    
     #pictograma {
         margin-top: 80px;
         margin-bottom: 80px;
-    }
-     #text1{
-        font-size: 1.5rem;
-    }
-    
-    #text2{
-        font-size: 1.5rem;
-    }
-    
-    #text3{
-        font-size: 1.5rem;
-    }
-    #text4{
-        font-size: 1.5rem;
-    }
-    
- }
- @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-    .picto img {
-        width: 100px;
-        height: 100px;
-        margin: 0 30px 0 30px;
-    }
-    #pagina {
-        font-size: 1.5rem;
-    }
-    #pictograma {
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
-    #text1{
-        font-size: 1.5rem;
-    }
-    
-    #text2{
-        font-size: 1.5rem;
-    }
-    
-    #text3{
-        font-size: 1.5rem;
-    }
-    #text4{
-        font-size: 1.5rem;
-    }
- }
+    }  
 
- @media only screen and (min-width: 1200px) {/* styles for large screens */
     .picto img {
         width: 100px;
         height: 100px;
         margin: 0 30px 0 30px;
     }
+
+    .textfrase{
+        font-size: 1.5rem;
+    }
+    
     #pagina {
         font-size: 1.5rem;
     }
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
     #pictograma {
         margin-top: 80px;
         margin-bottom: 80px;
     }
-    #text1{
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0 30px 0 30px;
+    }
+
+    .textfrase{
+        font-size: 1.5rem;
+    }
+
+    #pagina {
         font-size: 1.5rem;
     }
     
-    #text2{
+}
+
+@media only screen and (min-width: 1200px) {/* styles for large screens */
+    
+    #pictograma {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0 30px 0 30px;
+    }
+
+    #textfrase{
+        font-size: 1.5rem;
+    }
+
+    #pagina {
         font-size: 1.5rem;
     }
     
-    #text3{
-        font-size: 1.5rem;
-    }
-    #text4{
-        font-size: 1.5rem;
-    }
 }

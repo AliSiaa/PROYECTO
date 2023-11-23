@@ -109,3 +109,5 @@ img6.addEventListener("click", function(){
         text6.style.display = "inline";
     }
 })
+
+

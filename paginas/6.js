@@ -59,3 +59,4 @@ img3.addEventListener("click", function(){
         text3.style.display = "inline";
     }
 })
+

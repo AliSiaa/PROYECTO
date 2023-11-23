@@ -92,3 +92,5 @@ img5.addEventListener("click", function(){
         text5.style.display = "inline";
     }
 })
+
+

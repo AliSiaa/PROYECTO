@@ -32,37 +32,6 @@
     100% { top: 70%; left: 79%;}
 }
 
-#pescado3 {
-    position: absolute;
-    transform: rotate(268deg);
-    top: 0px;
-    left: 0px;
-    width: 200px!important;
-    height: 100px!important;
-    animation: meneo3 20s infinite;
-}
-
-@keyframes meneo3 {
-    0% {
-        transform: translate(70px, 125px) rotate(320deg);
-    }
-    25% {
-        transform: translate(200px, 300px) rotate(320deg);
-    }
-    50% {
-        transform: translate(300px, 125px) rotate(250deg);
-    }
-    75% {
-        transform: translate(400px, 300px) rotate(268deg);
-    }
-    100% {
-        transform: translate(500px, 125px) rotate(268deg);
-    }
-}
-
-
-
-
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
     /* styles for phones */
@@ -96,7 +65,6 @@
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     /* styles for small tablets */
-       /* styles for phones */
        #pescado1{
         position: absolute;
         top: 76%;
@@ -124,10 +92,10 @@
     }
 
 }
+
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     /* styles for tablets in landscape and small laptops */
-       /* styles for phones */
-       #pescado1{
+    #pescado1{
         position: absolute;
         top: 82%;
         left: 51%;
@@ -152,10 +120,4 @@
         75% { top: 30vh; left: 40vw;}
         100% { top: 35vh; left: 60vw;}
     }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* styles for desktops */  
-}
-@media only screen and (min-width: 1200px) {
-    /* styles for large screens */
 }
