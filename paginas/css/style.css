@@ -90,7 +90,6 @@ body{
 }
 
 
-
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) { 
 
@@ -102,6 +101,13 @@ body{
 
     #pagina {
         font-size: 1.3rem;
+    }
+
+    .flex{
+        display: flex;
+    }
+    .column{
+        flex-direction: column;
     }
 
 }
