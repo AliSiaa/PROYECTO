@@ -1,3 +1,7 @@
+*{
+    border: 1px solid black;
+}
+
 body{
     margin: 0px;
     background-color: floralwhite;
@@ -40,7 +44,7 @@ body{
 .picto{
    /*  width: 100px;
     height: 100px; */
-    margin: 0 30px 0 0px;
+  /*   margin: 0 30px 0 0px; */
 }
 
 .picto img{
@@ -96,7 +100,7 @@ body{
     #pictograma{
        /*  flex-direction: column; */
        margin-top: 20px; 
-       gap: 10px;
+       gap: 40px;
     }
 
     #pagina {
