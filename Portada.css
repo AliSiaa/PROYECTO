@@ -51,6 +51,13 @@ h1{
     width: 50px;
     height: auto;
 }
+.positionFlechaIzquierda{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 50px;
+    height: auto;
+}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
@@ -70,6 +77,7 @@ h1{
        right: 5px;
        width: 30px;
     }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -83,6 +91,7 @@ h1{
         left: 0;
         right: 0;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -99,4 +108,5 @@ h1{
     .positionFlecha {
         width: 40px;
     }
+    
 }

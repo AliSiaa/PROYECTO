@@ -204,6 +204,7 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+    
     @keyframes meneo1 {
         0% { top: 60%; left: 10%;}
         25% {top: 50%; left: 20%;}

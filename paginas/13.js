@@ -11,12 +11,12 @@ const text5 = document.querySelector("#text5");
 
 const izquierda = document.querySelector("#izquierda");
 izquierda.addEventListener("click", function(){
-    window.location.href = "4.html";
+    window.location.href = "12.html";
 })
 
 const derecha = document.querySelector("#derecha");
 derecha.addEventListener("click", function(){
-    window.location.href = "6.html";
+    window.location.href = "14.html";
 })
 
 img1.addEventListener("click", function(){

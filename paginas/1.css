@@ -38,7 +38,7 @@
     #pescado1{
         position: absolute;
         top: 76%;
-        left: 43%;
+        left: 41%;
         width: 100px!important;
         height: 25px!important;
         animation: meneo 1s infinite;
@@ -120,4 +120,5 @@
         75% { top: 30vh; left: 40vw;}
         100% { top: 35vh; left: 60vw;}
     }
+    
 }

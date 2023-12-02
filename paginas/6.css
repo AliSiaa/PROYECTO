@@ -201,24 +201,6 @@
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
 
-    #tortuga1{
-        width: 38px!important;
-        height: 38px!important;
-    }
-    #tortuga2{
-        width: 38px!important;
-        height: 38px!important;
-    }
-    #tortuga3{
-        width: 38px!important;
-        height: 38px!important;
-    }
-    #tortuga4{
-        width: 38px!important;
-        height: 38px!important;
-    }
-
-    
     @keyframes meneo1 {
         0% { top: 60%; left: 10%;}
         25% {top: 50%; left: 20%;}
@@ -291,9 +273,30 @@
         100% { top: 65%; left: 85%;}
     }
 
+    #tortuga1{
+        width: 38px!important;
+        height: 38px!important;
+    }
+
+    #tortuga2{
+        width: 38px!important;
+        height: 38px!important;
+    }
+
+    #tortuga3{
+        width: 38px!important;
+        height: 38px!important;
+    }
+
+    #tortuga4{
+        width: 38px!important;
+        height: 38px!important;
+    }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+   
     @keyframes meneo1 {
         0% { top: 60%; left: 10%;}
         25% {top: 50%; left: 20%;}

@@ -2,21 +2,19 @@ const img1 = document.querySelector("#img1");
 const img2 = document.querySelector("#img2");
 const img3 = document.querySelector("#img3");
 const img4 = document.querySelector("#img4");
-const img5 = document.querySelector("#img5");
 const text1 = document.querySelector("#text1");
 const text2 = document.querySelector("#text2");
 const text3 = document.querySelector("#text3");
 const text4 = document.querySelector("#text4");
-const text5 = document.querySelector("#text5");
 
 const izquierda = document.querySelector("#izquierda");
 izquierda.addEventListener("click", function(){
-    window.location.href = "4.html";
+    window.location.href = "8.html";
 })
 
 const derecha = document.querySelector("#derecha");
 derecha.addEventListener("click", function(){
-    window.location.href = "6.html";
+    window.location.href = "10.html";
 })
 
 img1.addEventListener("click", function(){
@@ -78,23 +76,6 @@ img4.addEventListener("click", function(){
         img4.style.boxShadow = 'none';
         text4.style.display = "inline";
     }
-
+   
 })
-
-img5.addEventListener("click", function(){
-
-    text5.style.display = "inline";
-
-    if( img5.style.boxShadow === 'none'){
-        img5.style.boxShadow = '5px 5px 10px rgba(0,0,0,0.3)';
-        text5.style.display = "none";
-    } 
-    
-    else {
-        img5.style.boxShadow = 'none';
-        text5.style.display = "inline";
-    }
-    
-})
-
 

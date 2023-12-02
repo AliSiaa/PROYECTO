@@ -1,6 +1,10 @@
 /* *{
     border: 1px solid black;
 } */
+*{
+    margin: 0;
+    padding: 0;  
+}
 
 body{
     margin: 0px;
@@ -41,11 +45,21 @@ body{
     gap: 40px;
 }
 
-/* .picto{ */
-   /*  width: 100px;
-    height: 100px; */
-  /*   margin: 0 30px 0 0px; */
-/* } */
+#imagenReducida{
+    height: 400px!important;
+}
+#h600{
+    height: 600px!important;
+}
+.pictoPequeño{
+    width: 75px!important;
+    height: 75px!important;
+    margin: 0px!important;
+}
+
+.noGap{
+    gap: 0!important;
+}
 
 .picto img{
     width: 59px;
@@ -57,7 +71,6 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
-    /* margin-top: 28px; */
     margin-bottom: 40px;
 }
 
@@ -92,35 +105,36 @@ body{
 
 #pagina p {
     margin-right: 20px;
-}
-
-.noGap{
-    gap: 0!important;
+    margin-top: 10px;
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) { 
 
     #pictograma{
-       /*  flex-direction: column; */
        margin-top: 20px; 
        gap: 30px;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+    
+    .flex{
+        display: flex;
+        gap: 30px;
+    }
+
+    .textfrase{
+        font-size: 1.3rem;
     }
 
     #pagina {
         font-size: 1.3rem;
     }
-
-    .flex{
-        display: flex;
-        gap: 30px;
-    }
-    .column{
-        flex-direction: column;
-    }
-
-    .textfrase{
-        font-size: 1.3rem;
+    .pictoPequeño {
+        width: 50px!important;
+        height: 50px!important;
     }
 
 }
@@ -130,16 +144,25 @@ body{
     #pictograma {
         margin-top: 20px;
         margin-bottom: 40px;
-    }  
+    }
+
+    .menosMargen{
+        margin-top: 40px!important;
+        margin-bottom: 20px!important;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .flex{
+        display: flex;
+    }
 
     .picto img {
         width: 100px;
         height: 100px;
         margin: 0 22px 0 30px;
-    }
-    .menosMargen{
-        margin-top: 40px!important;
-        margin-bottom: 20px!important;
     }
 
     .textfrase{
@@ -148,14 +171,6 @@ body{
 
     #pagina {
         font-size: 1.5rem;
-    }
-
-    .flex{
-        display: flex;
-      /*   gap: 30px; */
-    }
-    .column{
-        flex-direction: column;
     }
 
 }
@@ -165,17 +180,26 @@ body{
     #pictograma {
         margin-top: 80px;
         margin-bottom: 80px;
-    }  
-
-    .picto img {
-        width: 100px;
-        height: 100px;
-        /* margin: 0 30px 0 30px; */
-    }
+    } 
 
     .menosMargen{
         margin-top: 40px!important;
         margin-bottom: 20px!important;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .flex{
+        display: flex;
+        gap: 30px;
+    }
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0px 10px
     }
 
     .textfrase{
@@ -184,14 +208,6 @@ body{
     
     #pagina {
         font-size: 1.5rem;
-    }
-
-    .flex{
-        display: flex;
-        gap: 30px;
-    }
-    .column{
-        flex-direction: column;
     }
     
 }
@@ -201,18 +217,27 @@ body{
     #pictograma {
         margin-top: 20px;
         margin-bottom: 40px;
-       /*  gap: 0; */
-    }
-
-    .picto img {
-        width: 100px;
-        height: 100px;
-        /* margin: 0 30px 0 0; */
+        /* margin: 0% 10px; */
     }
 
     .menosMargen{
         margin-top: 40px!important;
         margin-bottom: 20px!important;
+    }
+    
+    .column{
+        flex-direction: column;
+    }
+
+    .flex{
+        display: flex;
+        gap: 30px;
+    }
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+        margin: 0px 15px
     }
 
     .textfrase{
@@ -222,14 +247,7 @@ body{
     #pagina {
         font-size: 1.5rem;
     }
-    .flex{
-        display: flex;
-        gap: 30px;
-    }
-    .column{
-        flex-direction: column;
-    }
-    
+        
 }
 
 @media only screen and (min-width: 1200px) {/* styles for large screens */
@@ -238,11 +256,20 @@ body{
         margin-top: 20px;
         margin-bottom: 40px;
     }
-    
+
+    .column{
+        flex-direction: column;
+    }
+
+    .flex{
+        display: flex;
+        gap: 30px;
+    }
+
     .picto img {
         width: 100px;
         height: 100px;
-        /* margin: 0 30px 0 30px; */
+        margin: 0px 15px;
     }
 
     #textfrase{
@@ -252,12 +279,5 @@ body{
     #pagina {
         font-size: 1.5rem;
     }
-    .flex{
-        display: flex;
-        gap: 30px;
-    }
-    .column{
-        flex-direction: column;
-    }
-    
+       
 }

@@ -43,6 +43,7 @@ img2.addEventListener("click", function(){
         img2.style.boxShadow = 'none';
         text2.style.display = "inline";
     }
+
 })
 
 img3.addEventListener("click", function(){
@@ -58,5 +59,6 @@ img3.addEventListener("click", function(){
         img3.style.boxShadow = 'none';
         text3.style.display = "inline";
     }
+    
 })
 

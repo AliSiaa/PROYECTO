@@ -48,6 +48,7 @@ img2.addEventListener("click", function(){
         img2.style.boxShadow = 'none';
         text2.style.display = "inline";
     }
+
 })
 
 img3.addEventListener("click", function(){
@@ -63,6 +64,7 @@ img3.addEventListener("click", function(){
         img3.style.boxShadow = 'none';
         text3.style.display = "inline";
     }
+
 })
 
 img4.addEventListener("click", function(){
@@ -78,6 +80,7 @@ img4.addEventListener("click", function(){
         img4.style.boxShadow = 'none';
         text4.style.display = "inline";
     }
+
 })
 
 img5.addEventListener("click", function(){
@@ -93,6 +96,7 @@ img5.addEventListener("click", function(){
         img5.style.boxShadow = 'none';
         text5.style.display = "inline";
     }
+
 })
 
 img6.addEventListener("click", function(){
@@ -108,6 +112,7 @@ img6.addEventListener("click", function(){
         img6.style.boxShadow = 'none';
         text6.style.display = "inline";
     }
+    
 })
 
 
