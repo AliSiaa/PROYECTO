@@ -48,9 +48,11 @@ body{
 #imagenReducida{
     height: 400px!important;
 }
+
 #h600{
     height: 600px!important;
 }
+
 .pictoPequeño{
     width: 75px!important;
     height: 75px!important;
@@ -125,6 +127,10 @@ body{
         gap: 30px;
     }
 
+    .picto img{
+        margin-left: 10px;
+    }
+
     .textfrase{
         font-size: 1.3rem;
     }
@@ -136,7 +142,7 @@ body{
         width: 50px!important;
         height: 50px!important;
     }
-
+    
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -171,7 +177,7 @@ body{
 
     #pagina {
         font-size: 1.5rem;
-    }
+    }  
 
 }
 

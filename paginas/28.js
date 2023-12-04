@@ -5,6 +5,7 @@ const img4 = document.querySelector("#img4");
 const img5 = document.querySelector("#img5");
 const img6 = document.querySelector("#img6");
 const img7 = document.querySelector("#img7");
+const img8 = document.querySelector("#img8");
 const text1 = document.querySelector("#text1");
 const text2 = document.querySelector("#text2");
 const text3 = document.querySelector("#text3");
@@ -12,6 +13,7 @@ const text4 = document.querySelector("#text4");
 const text5 = document.querySelector("#text5");
 const text6 = document.querySelector("#text6");
 const text7 = document.querySelector("#text7");
+const text8 = document.querySelector("#text8");
 
 const izquierda = document.querySelector("#izquierda");
 izquierda.addEventListener("click", function(){
@@ -129,6 +131,22 @@ img7.addEventListener("click", function(){
     else {
         img7.style.boxShadow = 'none';
         text7.style.display = "inline";
+    }
+    
+})
+
+img8.addEventListener("click", function(){
+
+    text8.style.display = "inline";
+
+    if( img8.style.boxShadow === 'none'){
+        img8.style.boxShadow = '5px 5px 10px rgba(0,0,0,0.3)';
+        text8.style.display = "none";
+    } 
+    
+    else {
+        img8.style.boxShadow = 'none';
+        text8.style.display = "inline";
     }
     
 })
